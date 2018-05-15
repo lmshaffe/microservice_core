@@ -1,0 +1,7 @@
+{
+  "routes": [
+    "../routes/core/RequestLoggerRoutes",
+    "../routes/core/EnvironmentRoutes",
+    "../routes/core/HealthCheckRoutes"
+  ]
+}

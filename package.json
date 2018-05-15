@@ -1,0 +1,35 @@
+{
+  "name": "microservice_core",
+  "version": "1.0.0",
+  "description": "base node framework for microservice projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/all.suite.js",
+    "test_unit": "mocha tests/unit.suite.js",
+    "test_integration": "mocha tests/integration.suite.js",
+    "lint": "eslint . || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmshaffe/microservice_core.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmshaffe/microservice_core/issues"
+  },
+  "homepage": "https://github.com/lmshaffe/microservice_core#readme",
+  "dependencies": {
+    "dotenv-extended": "^2.0.1",
+    "eslint": "^4.12.1",
+    "express": "^4.16.2",
+    "npid": "^0.4.0",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-things": "^0.2.0",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.2"
+  }
+}
