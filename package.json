@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/lmshaffe/microservice_core#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "dotenv-extended": "^2.0.1",
     "eslint": "^4.12.1",
     "express": "^4.16.2",
